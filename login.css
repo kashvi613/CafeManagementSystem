@@ -1,0 +1,180 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://th.bing.com/th/id/OIP._krCsLO2cCdCLKH4yirvVwHaFi?rs=1&pid=ImgDetMain'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    backdrop-filter: blur(8px);
+}
+
+/* Header and Navbar Styling */
+header {
+    background-color: rgba(90, 62, 54, 0.8); /* Rich brown with some transparency */
+    color: white;
+    text-align: center;
+    position: relative; /* For absolute positioning of logout button */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Header Title */
+.AROMA span{
+    display: flex;
+    justify-content: left;
+   
+}
+
+#logout-button {
+    background-color: #d9534f; /* Red background */
+    color: white;
+    padding: 6px 18px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    display: inline-block;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#logout-button:hover {
+    background-color: #c9302c; /* Darker red on hover */
+    transform: scale(1.05); /* Slight increase in size */
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo h1 {
+    color: white;
+    font-size: 28px;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    padding-left: 135vh;
+}
+
+nav .nav-links li {
+    margin: 0 15px;
+}
+
+nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav .nav-links a:hover {
+    color: #ff9800;
+}
+
+/* Main Section with Background Image */
+.main {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 20px;
+}
+
+.main h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.main p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.quotes {
+    font-style: italic;
+    font-size: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.quotes blockquote {
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about {
+    padding: 50px 20px;
+    background-color: rgba(90, 62, 54, 0.8);
+    text-align: center;
+    border: 2px solid black;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+/* Contact Us Section */
+.contact {
+    padding: 50px 20px;
+    background-color: rgba(90, 62, 54, 0.8);
+    text-align: center;
+    border: 2px solid black;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contact p {
+    font-size: 18px;
+    color: white;
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #3e2723;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+#cafe_logo{
+    height: 150px;
+    width: 150px;
+}
